@@ -1,0 +1,6 @@
+#!/bin/sh
+
+while true; do
+	xsetroot -name "$(date "+%h %d %H:%M")"
+	sleep 10
+done
