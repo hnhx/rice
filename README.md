@@ -1,2 +1,9 @@
-# suckless
-My slightly changed suckless build.
+Changes:
+- dwm
+  - Changed the font and the colors (dracula theme)
+  - Changed dmenu
+  - Made a simple status bar
+  - Added a keybind (shift + alt + d) for flameshot
+- st
+  - Applied the [anysize](https://st.suckless.org/patches/anysize/st-anysize-0.8.4.diff) patch
+  - Changed the font and the colors (dracula theme)
