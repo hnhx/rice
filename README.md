@@ -1,18 +1,14 @@
-Changes:
-- dwm
-  - Changed the font and the colors (dracula theme)
-  - Changed dmenu
-  - Made a simple status bar
-  - Added a keybind (shift + alt + d) for flameshot
-- st
-  - Applied the [anysize](https://st.suckless.org/patches/anysize/st-anysize-0.8.4.diff) patch
-  - Changed the font and the colors (dracula theme)
+<img src="rice.png" width=100%>
+<p align="center">My simple suckless rice</p>
+
+<br>
 
 How to install:
 
 ```
-git clone https://github.com/hnhx/suckless.git
-cd suckless
+git clone https://github.com/hnhx/rice.git
+cd rice
 make
 sudo make install
+pacman -S xclip scrot (you will need these for making screenshots)
 ```
