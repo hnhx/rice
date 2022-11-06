@@ -6,8 +6,12 @@ all:
 	cp ./dwmconfig.h ./dwm/config.h
 	cp -f ./.xinitrc ~/.xinitrc
 	feh --bg-scale ./bg.jpg
+	chmod +x ./bar
+	chmod +x ./screenshot
 
 install:
 	$(MAKE) -C st install
 	$(MAKE) -C dwm install
+	cp ./zshrc $(HOME)/.zshrc
 	cp ./bar /usr/local/bin/
+	cp ./screenshot /usr/local/bin
