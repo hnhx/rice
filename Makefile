@@ -7,7 +7,7 @@ all:
 	chmod +x ./screenshot
 
 install:
-	$(MAKE) -C st install
-	$(MAKE) -C dwm install
+	$(MAKE) -C suckless/st install
+	$(MAKE) -C suckless/dwm install
 	cp -f ./bar /usr/local/bin/
 	cp -f ./screenshot /usr/local/bin/
