@@ -10,5 +10,7 @@ git clone https://github.com/hnhx/rice.git
 cd rice
 make
 sudo make install
-pacman -S xclip scrot (you will need these for making screenshots)
+chsh -s /bin/zsh (if zsh is not your default shell already)
 ```
+
+The packages you will need: `zsh xclip scrot dmenu feh picom hack (font)`
