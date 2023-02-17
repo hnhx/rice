@@ -2,8 +2,8 @@ all:
 	cp -f ./zshrc ~/.zshrc
 	cp -f ./xinitrc ~/.xinitrc
 	cp -f ./picom.conf ~/.config/
-	mkdir ~/sxhkd
-	cp -f ./sxhkdrc ~/sxhkd/
+	mkdir ~/.config/sxhkd
+	cp -f ./sxhkdrc ~/.config/sxhkd/
 	feh --bg-scale ./bg.jpg
 
 install:
