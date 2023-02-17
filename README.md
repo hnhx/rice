@@ -13,4 +13,4 @@ sudo make install
 chsh -s /bin/zsh (if zsh is not your default shell already)
 ```
 
-The packages you will need: `zsh xclip scrot dmenu feh picom hack (font)`
+The packages you will need: `zsh xclip scrot dmenu feh sxhkd picom hack (font)`

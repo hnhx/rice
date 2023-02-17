@@ -1,0 +1,9 @@
+XF86AudioRaiseVolume
+	 pactl -- set-sink-volume 0 +3%
+
+XF86AudioLowerVolume
+	 pactl -- set-sink-volume 0 -3%
+
+XF86AudioMute
+	audio-switch
+	

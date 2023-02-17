@@ -5,5 +5,6 @@ fi
 
 ~/.fehbg &
 picom &
+sxhkd &
 bar &
 exec dwm

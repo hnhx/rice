@@ -1,0 +1,11 @@
+#!/bin/sh
+
+sink=$(pactl get-default-sink)
+new_sink="alsa_output.pci-0000_0b_00.4.analog-stereo"
+
+if [ "$sink" = "$new_sink" ]
+then
+	 new_sink="alsa_output.pci-0000_09_00.1.hdmi-stereo-extra3"
+fi
+
+pactl set-default-sink "$new_sink"
